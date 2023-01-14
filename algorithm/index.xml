@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithm on lnalice&#39;s Digital Garden 🌏</title>
+    <link>http://example.org/algorithm/</link>
+    <description>Recent content in Algorithm on lnalice&#39;s Digital Garden 🌏</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Theme Installation</title>
+      <link>http://example.org/algorithm/installation/</link>
+      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/algorithm/installation/</guid>
+      <description>Create a new hugo website or open your existing hugo site.
+Add the theme to your hugo site Use as a git submodule:
+git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):
+git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup  Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = &#39;digitalgarden&#39; in config.</description>
+    </item>
+    
+    <item>
+      <title>5. Newsletter</title>
+      <link>http://example.org/algorithm/newsletter/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/algorithm/newsletter/</guid>
+      <description>The theme supports a subscription to multiple newsletter providers.
+ Buttondown Substack Revue  Buttondown [Params.newsletter.provider] = &amp;ldquo;buttondown&amp;rdquo;
+Copy the action url from your buttondown admin dashboard and add it to [Params.newsletter.path] in config.toml
+Substack [Params.newsletter.provider] = &amp;ldquo;substack&amp;rdquo;
+Setting up substack is the easiest. Just add your substack newsletter URL (applicable for custom domains also) to [Params.newsletter.path] in config.toml
+Note that since substack doesn&amp;rsquo;t have a native API for subscription. The theme uses the api from substackapi.</description>
+    </item>
+    
+    <item>
+      <title>6. Google Analytics</title>
+      <link>http://example.org/algorithm/google-analytics/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/algorithm/google-analytics/</guid>
+      <description>Digital garden theme utilizes the Hugo&amp;rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
+Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
+Google Analytics v3 (analytics.js) googleAnalytics = &amp;#39;UA-PROPERTY_ID&amp;#39; Google Analytics v4 (gtag.js) googleAnalytics = &amp;#39;G-MEASUREMENT_ID&amp;#39; → Configure Metatags</description>
+    </item>
+    
+    <item>
+      <title>7. Metatags</title>
+      <link>http://example.org/algorithm/metatags/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/algorithm/metatags/</guid>
+      <description>Metatags are used to provide additional information about the page, usualy used by search engines and social media websites / apps. It allows to customize your page&amp;rsquo;s title, description, preview image and more.
+Configure default tags // config.toml
+title = &amp;#34;Personal Digital Garden&amp;#34; [Params] description = &amp;#34;My Digital Garden on the Internet&amp;#34; images = [&amp;#39;/digital-garden-logo.png&amp;#39;] Setting the above values will be used as default for all pages unless its overridden in a specific page&amp;rsquo;s markdown.</description>
+    </item>
+    
+  </channel>
+</rss>
