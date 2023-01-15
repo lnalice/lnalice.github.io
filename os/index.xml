@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating system on lnalice&#39;s Digital Garden 🌏</title>
-    <link>http://example.org/os/</link>
+    <link>http://lnalice.github.io/os/</link>
     <description>Recent content in Operating system on lnalice&#39;s Digital Garden 🌏</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/os/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://lnalice.github.io/os/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

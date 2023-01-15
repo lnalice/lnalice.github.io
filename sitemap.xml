@@ -2,78 +2,78 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://lnalice.github.io/</loc>
     <lastmod>2023-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/algorithm/installation/</loc>
+    <loc>http://lnalice.github.io/algorithm/installation/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/installation/</loc>
+    <loc>http://lnalice.github.io/articles/installation/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/algorithm/</loc>
+    <loc>http://lnalice.github.io/algorithm/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/</loc>
+    <loc>http://lnalice.github.io/articles/</loc>
     <lastmod>2021-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/structure/</loc>
+    <loc>http://lnalice.github.io/articles/structure/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/primary-menu/</loc>
+    <loc>http://lnalice.github.io/articles/primary-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/social-menu/</loc>
+    <loc>http://lnalice.github.io/articles/social-menu/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/algorithm/newsletter/</loc>
+    <loc>http://lnalice.github.io/algorithm/newsletter/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/newsletter/</loc>
+    <loc>http://lnalice.github.io/articles/newsletter/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/algorithm/google-analytics/</loc>
+    <loc>http://lnalice.github.io/algorithm/google-analytics/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/google-analytics/</loc>
+    <loc>http://lnalice.github.io/articles/google-analytics/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/algorithm/metatags/</loc>
+    <loc>http://lnalice.github.io/algorithm/metatags/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/articles/metatags/</loc>
+    <loc>http://lnalice.github.io/articles/metatags/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/design1/</loc>
+    <loc>http://lnalice.github.io/portfolio/design1/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/</loc>
+    <loc>http://lnalice.github.io/portfolio/</loc>
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/design2/</loc>
+    <loc>http://lnalice.github.io/portfolio/design2/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/portfolio/design3/</loc>
+    <loc>http://lnalice.github.io/portfolio/design3/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/ai/</loc>
+    <loc>http://lnalice.github.io/ai/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://lnalice.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/oop/chapter1/</loc>
+    <loc>http://lnalice.github.io/oop/chapter1/</loc>
   </url><url>
-    <loc>http://example.org/oop/chapter2/</loc>
+    <loc>http://lnalice.github.io/oop/chapter2/</loc>
   </url><url>
-    <loc>http://example.org/java/</loc>
+    <loc>http://lnalice.github.io/java/</loc>
   </url><url>
-    <loc>http://example.org/network/</loc>
+    <loc>http://lnalice.github.io/network/</loc>
   </url><url>
-    <loc>http://example.org/oop/</loc>
+    <loc>http://lnalice.github.io/oop/</loc>
   </url><url>
-    <loc>http://example.org/os/</loc>
+    <loc>http://lnalice.github.io/os/</loc>
   </url><url>
-    <loc>http://example.org/stack/</loc>
+    <loc>http://lnalice.github.io/stack/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://lnalice.github.io/tags/</loc>
   </url>
 </urlset>
