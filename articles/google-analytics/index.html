@@ -13,9 +13,9 @@
 
   <meta name="description" content="Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
 Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
-Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags" /><meta name="generator" content="Hugo 0.109.0">
+Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags" /><meta name="generator" content="Hugo 0.92.2" />
 
-  <link rel="stylesheet" href="http://lnalice.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://lnalice.github.io/css/main.css" />
 
   
   
@@ -25,9 +25,10 @@ Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Go
 Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
 Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://lnalice.github.io/articles/google-analytics/" /><meta property="article:section" content="articles" />
+<meta property="og:url" content="https://lnalice.github.io/articles/google-analytics/" /><meta property="article:section" content="articles" />
 <meta property="article:published_time" content="2021-12-18T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-12-18T00:00:00+00:00" />
+
 
 
   <meta name="twitter:card" content="summary"/>
@@ -62,7 +63,7 @@ Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Go
   <line x1="18" y1="6" x2="6" y2="18" />
   <line x1="6" y1="6" x2="18" y2="18" />
 </svg></button>
-    <a href="http://lnalice.github.io/" class="px-2">
+    <a href="https://lnalice.github.io/" class="px-2">
       <span>lnalice&#39;s Digital Garden 🌏</span>
     </a>
     <button aria-label="Toggle dark mode"
@@ -254,7 +255,7 @@ Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Go
   lg:translate-x-0 lg:min-w-[400px] lg:w-1/4 h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area">
     
     
-    <a href="http://lnalice.github.io/articles/">
+    <a href="https://lnalice.github.io/articles/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a><div class="space-y-2.5">
       
@@ -270,7 +271,7 @@ Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Go
           Create a new hugo website or open your existing hugo site.
 Add the theme to your hugo site Use as a git submodule:
 git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):
-git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
+git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup  Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
         </div>
       </a>
       
@@ -295,7 +296,7 @@ Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Ma
           class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           The sidebar of the theme uses the main menu. Add all the items for your sidebar navigation in this menu.
 // config.toml
-[menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3 name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
+[menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3  name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
         </div>
       </a>
       
@@ -309,7 +310,7 @@ Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Ma
           The social menu can be used to configure all the social icons in the sidebar. Add links to your social media in the website config to show the icons.
 [[menu.social]] name = &#39;Twitter&#39; url = &#39;https://twitter.com&#39; weight = 1 The name of the social menu needs to be unique and should be one of the supported values.
 Supported values for the social menu item name:
-Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS → Configure newsletter
+ Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS  → Configure newsletter
         </div>
       </a>
       
@@ -321,7 +322,7 @@ Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS →
         <div
           class="text-sm  text-slate-500 dark:text-slate-400  line-clamp-2">
           The theme supports a subscription to multiple newsletter providers.
-Buttondown Substack Revue Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
+ Buttondown Substack Revue  Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
 Copy the action url from your buttondown admin dashboard and add it to [Params.newsletter.path] in config.toml
 Substack [Params.newsletter.provider] = &ldquo;substack&rdquo;
 Setting up substack is the easiest. Just add your substack newsletter URL (applicable for custom domains also) to [Params.newsletter.path] in config.toml
@@ -374,10 +375,10 @@ title = &#34;Personal Digital Garden&#34; [Params] description = &#34;My Digital
       <p>Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.</p>
 <p>Add your <strong>UA-PROPERTY_ID</strong> or <strong>G-MEASUREMENT_ID</strong> to config.toml</p>
 <h4 id="google-analytics-v3-analyticsjs">Google Analytics v3 (analytics.js)</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;UA-PROPERTY_ID&#39;</span>
-</span></span></code></pre></div><h4 id="google-analytics-v4-gtagjs">Google Analytics v4 (gtag.js)</h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;G-MEASUREMENT_ID&#39;</span>
-</span></span></code></pre></div><p>→ <a href="/articles/metatags" >Configure Metatags</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;UA-PROPERTY_ID&#39;</span>
+</code></pre></div><h4 id="google-analytics-v4-gtagjs">Google Analytics v4 (gtag.js)</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">googleAnalytics</span> = <span style="color:#e6db74">&#39;G-MEASUREMENT_ID&#39;</span>
+</code></pre></div><p>→ <a href="/articles/metatags" >Configure Metatags</a></p>
 
     </article>
   </div>
