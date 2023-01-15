@@ -11,7 +11,7 @@
     Articles - lnalice&#39;s Digital Garden 🌏
   </title>
 
-  <meta name="description" content="" /><meta name="generator" content="Hugo 0.92.2" />
+  <meta name="description" content="" /><meta name="generator" content="Hugo 0.109.0">
 
   <link rel="stylesheet" href="http://example.org/css/main.css" />
 
@@ -22,7 +22,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://example.org/articles/" />
-
 
 
   <meta name="twitter:card" content="summary"/>
@@ -244,7 +243,7 @@
           Create a new hugo website or open your existing hugo site.
 Add the theme to your hugo site Use as a git submodule:
 git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):
-git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup  Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
+git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = 'digitalgarden' in config.
         </div>
       </a>
       <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/structure/">
@@ -265,7 +264,7 @@ Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Ma
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
           The sidebar of the theme uses the main menu. Add all the items for your sidebar navigation in this menu.
 // config.toml
-[menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3  name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
+[menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3 name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
         </div>
       </a>
       <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/social-menu/">
@@ -277,7 +276,7 @@ Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Ma
           The social menu can be used to configure all the social icons in the sidebar. Add links to your social media in the website config to show the icons.
 [[menu.social]] name = &#39;Twitter&#39; url = &#39;https://twitter.com&#39; weight = 1 The name of the social menu needs to be unique and should be one of the supported values.
 Supported values for the social menu item name:
- Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS  → Configure newsletter
+Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS → Configure newsletter
         </div>
       </a>
       <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/newsletter/">
@@ -287,7 +286,7 @@ Supported values for the social menu item name:
         <h3 class="text-lg font-semibold mb-0.5">5. Newsletter</h3>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
           The theme supports a subscription to multiple newsletter providers.
- Buttondown Substack Revue  Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
+Buttondown Substack Revue Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
 Copy the action url from your buttondown admin dashboard and add it to [Params.newsletter.path] in config.toml
 Substack [Params.newsletter.provider] = &ldquo;substack&rdquo;
 Setting up substack is the easiest. Just add your substack newsletter URL (applicable for custom domains also) to [Params.newsletter.path] in config.toml
