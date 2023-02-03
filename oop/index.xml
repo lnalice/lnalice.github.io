@@ -5,23 +5,18 @@
     <link>https://lnalice.github.io/oop/</link>
     <description>Recent content in Object-Oriented Programming on lnalice&#39;s Digital Garden 🌏</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lnalice.github.io/oop/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lnalice.github.io/oop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chapter1</title>
       <link>https://lnalice.github.io/oop/chapter1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lnalice.github.io/oop/chapter1/</guid>
-      <description>It&amp;rsquo;s just for test</description>
-    </item>
-    
-    <item>
-      <title>chapter2</title>
-      <link>https://lnalice.github.io/oop/chapter2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lnalice.github.io/oop/chapter2/</guid>
-      <description>It&amp;rsquo;s just for test</description>
+      <description>&amp;lsquo;스프링 입문을 위한 자바 객체 지향의 원리와 이해&amp;rsquo; 책을 바탕으로 쓰여졌다.
+기계어에서 객체 지향 프로그래밍 언어로 1. 기계어 0과 1로 이뤄진 언어&amp;hellip; 너무 비인간적이지 않는가
+2. 어셈블리어 &amp;ldquo;기계어의 명령들을 일상 용어로 표현하고 이걸 기계가 알 수 있는 기계어로 번역하게 하면 어떨까?&amp;rdquo;
+그래, 기계어와 일상 용어를 일대일 매칭하는 코드표가 필요하다. 니모닉(Mnemonic)과 기계어의 일대일 매칭 코드표를 만들었고 이 표를 어셈블리(Aseembly)라고 불렀다. 하지만, CPU마다 실해할 수 있는 기계어가 다르기 때문에, CPU 별로 어셈블리어( Assembly Language)가 달랐다.</description>
     </item>
     
   </channel>
