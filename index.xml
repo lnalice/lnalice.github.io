@@ -18,12 +18,23 @@
     </item>
     
     <item>
-      <title>chapter1</title>
+      <title>2. 자바 T메모리</title>
+      <link>https://lnalice.github.io/oop/chapter2/</link>
+      <pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://lnalice.github.io/oop/chapter2/</guid>
+      <description>[스프링 입문을 위한 자바 객체 지향의 원리와 이해] chapter2를 바탕으로 쓰여졌다.
+자바 프로그램의 개발과 구동 현실 세계에서 소프트웨어는 개발자가 여러 개발 도구를 이용해서 개발하고, OS를 통해 하드웨어 상에서 구동되는 것이다. 그럼, 자바의 경우로 생각해보자. JDK라는 개발 도구를 이용해 개발된 프로그램은 JRE에 의해 가상 컴퓨터인 JVM 상에서 구동된다.
+JDK : 자바 개발 도구 (Java Development Kit) → 개발도구 JRE : 자바 실행 환경 (Java Runtime Environmont) → OS JVM : 자바 가상 기계 (Java Virtual Machine) → 하드웨어 → JVM이라는 컴퓨터를 제어하는 OS를 JRE로 이해할 수 있고, 개발도구가 JDK인 것이다.</description>
+    </item>
+    
+    <item>
+      <title>1. 자바의 탄생</title>
       <link>https://lnalice.github.io/oop/chapter1/</link>
-      <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://lnalice.github.io/oop/chapter1/</guid>
-      <description>&amp;lsquo;스프링 입문을 위한 자바 객체 지향의 원리와 이해&amp;rsquo; 책을 바탕으로 쓰여졌다.
+      <description>[스프링 입문을 위한 자바 객체 지향의 원리와 이해] chapter1을 바탕으로 쓰여졌다.
 기계어에서 객체 지향 프로그래밍 언어로 1. 기계어 0과 1로 이뤄진 언어&amp;hellip; 너무 비인간적이지 않는가
 2. 어셈블리어 &amp;ldquo;기계어의 명령들을 일상 용어로 표현하고 이걸 기계가 알 수 있는 기계어로 번역하게 하면 어떨까?&amp;rdquo;
 그래, 기계어와 일상 용어를 일대일 매칭하는 코드표가 필요하다. 니모닉(Mnemonic)과 기계어의 일대일 매칭 코드표를 만들었고 이 표를 어셈블리(Aseembly)라고 불렀다. 하지만, CPU마다 실해할 수 있는 기계어가 다르기 때문에, CPU 별로 어셈블리어( Assembly Language)가 달랐다.</description>
